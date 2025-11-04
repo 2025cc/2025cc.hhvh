@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站维护中</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .maintenance-wrap {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            padding: 50px 30px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        .maintenance-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 30px;
+            object-fit: contain;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+        .desc {
+            color: #6b7280;
+            line-height: 1.7;
+            margin-bottom: 30px;
+            font-size: 1rem;
+        }
+        .time-info {
+            background-color: #f0f9ff;
+            color: #0ea5e9;
+            padding: 8px 20px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        .contact {
+            text-align: left;
+            padding: 20px;
+            background-color: #f9fafb;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .contact p {
+            color: #4b5563;
+            margin: 8px 0;
+        }
+        .copyright {
+            margin-top: 40px;
+            color: #9ca3af;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="maintenance-wrap">
+        <!-- 此处引用同目录下的icon.png作为维护图标 -->
+        <img src="icon.png" alt="维护图标" class="maintenance-icon">
+        <h1>网站维护中</h1>
+        <p class="desc">为了提供更优质的服务，本站正在进行系统升级与维护。维护期间部分功能暂时无法使用，给您带来不便，敬请谅解。</p>
+        <div class="time-info">预计恢复时间：2025年XX月XX日 XX:XX</div>
+        <div class="contact">
+            <p><strong>紧急联系：</strong></p>
+            <p>邮箱：support@example.com</p>
+            <p>电话：XXX-XXXXXXX</p>
+        </div>
+        <div class="copyright">© 2025 网站名称 版权所有</div>
+    </div>
+</body>
+</html>
